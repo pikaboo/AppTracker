@@ -86,6 +86,7 @@ class TrackManager: NSObject,TrackEventListener{
    */
     func onBackgroundFetchEvent(backgroundFetchHandler:@escaping (UIBackgroundFetchResult) -> Void){
         if !self.isTracking {
+            backgroundFetchHandler(.noData)
             return
         }
         log("start background fetch")
