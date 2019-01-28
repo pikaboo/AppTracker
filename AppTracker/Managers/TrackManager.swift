@@ -85,6 +85,9 @@ class TrackManager: NSObject,TrackEventListener{
      rather than the app delegate
    */
     func onBackgroundFetchEvent(backgroundFetchHandler:@escaping (UIBackgroundFetchResult) -> Void){
+        if !self.isTracking {
+            return
+        }
         log("start background fetch")
         self.backgroundFetchCompletionHandler = backgroundFetchHandler
         self.backgroundFetchInProgress = true
