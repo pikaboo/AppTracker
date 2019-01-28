@@ -12,8 +12,24 @@
 		BF0690B321FBA024001A3511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0690B121FBA024001A3511 /* Main.storyboard */; };
 		BF0690B521FBA027001A3511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0690B421FBA027001A3511 /* Assets.xcassets */; };
 		BF0690B821FBA027001A3511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0690B621FBA027001A3511 /* LaunchScreen.storyboard */; };
-		BF0690C321FBA027001A3511 /* AppTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690C221FBA027001A3511 /* AppTrackerTests.swift */; };
 		BF0690CE21FBA027001A3511 /* AppTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690CD21FBA027001A3511 /* AppTrackerUITests.swift */; };
+		BF0690DC21FBA0D2001A3511 /* ATFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690DB21FBA0D2001A3511 /* ATFileManager.swift */; };
+		BF0690DE21FBBDF8001A3511 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690DD21FBBDF8001A3511 /* TrackManager.swift */; };
+		BF0690E321FC95F0001A3511 /* BackgroundFetchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690E221FC95F0001A3511 /* BackgroundFetchEvent.swift */; };
+		BF0690E521FC9A6C001A3511 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690E421FC9A6C001A3511 /* BaseTest.swift */; };
+		BF0690E721FC9AF0001A3511 /* FileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690E621FC9AF0001A3511 /* FileManagerTests.swift */; };
+		BF0690E921FCE3BD001A3511 /* VisitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690E821FCE3BD001A3511 /* VisitEvent.swift */; };
+		BF0690EC21FCF815001A3511 /* LocationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690EB21FCF815001A3511 /* LocationEvent.swift */; };
+		BF0690EE21FCFAD5001A3511 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690ED21FCFAD5001A3511 /* Coordinate.swift */; };
+		BF0690F021FCFB9F001A3511 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690EF21FCFB9F001A3511 /* DateExtension.swift */; };
+		BF0690F221FD9BE0001A3511 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0690F121FD9BE0001A3511 /* Logger.swift */; };
+		BF2735AD21FE5A6B00C8540B /* CombinedHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2735AC21FE5A6B00C8540B /* CombinedHash.swift */; };
+		BF2735AF21FE6D8B00C8540B /* BackgroundFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2735AE21FE6D8B00C8540B /* BackgroundFetchTests.swift */; };
+		BF631DFD21FDA02B00813DA5 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF631DFC21FDA02B00813DA5 /* AlertManager.swift */; };
+		BF631DFF21FDA54F00813DA5 /* ATLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF631DFE21FDA54F00813DA5 /* ATLocationManager.swift */; };
+		BF631E0121FDA7D400813DA5 /* TrackEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF631E0021FDA7D400813DA5 /* TrackEventListener.swift */; };
+		BFFAC77321FDB989001295B2 /* MotionActivityEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFAC77221FDB989001295B2 /* MotionActivityEvent.swift */; };
+		BFFAC77521FDC196001295B2 /* ATMotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFAC77421FDC196001295B2 /* ATMotionActivityManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +58,28 @@
 		BF0690B721FBA027001A3511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0690B921FBA027001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0690BE21FBA027001A3511 /* AppTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF0690C221FBA027001A3511 /* AppTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTrackerTests.swift; sourceTree = "<group>"; };
 		BF0690C421FBA027001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0690C921FBA027001A3511 /* AppTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0690CD21FBA027001A3511 /* AppTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTrackerUITests.swift; sourceTree = "<group>"; };
 		BF0690CF21FBA027001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0690DB21FBA0D2001A3511 /* ATFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATFileManager.swift; sourceTree = "<group>"; };
+		BF0690DD21FBBDF8001A3511 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		BF0690E221FC95F0001A3511 /* BackgroundFetchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFetchEvent.swift; sourceTree = "<group>"; };
+		BF0690E421FC9A6C001A3511 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		BF0690E621FC9AF0001A3511 /* FileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerTests.swift; sourceTree = "<group>"; };
+		BF0690E821FCE3BD001A3511 /* VisitEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitEvent.swift; sourceTree = "<group>"; };
+		BF0690EA21FCEE7A001A3511 /* Route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		BF0690EB21FCF815001A3511 /* LocationEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEvent.swift; sourceTree = "<group>"; };
+		BF0690ED21FCFAD5001A3511 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BF0690EF21FCFB9F001A3511 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		BF0690F121FD9BE0001A3511 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		BF2735AC21FE5A6B00C8540B /* CombinedHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedHash.swift; sourceTree = "<group>"; };
+		BF2735AE21FE6D8B00C8540B /* BackgroundFetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFetchTests.swift; sourceTree = "<group>"; };
+		BF631DFC21FDA02B00813DA5 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		BF631DFE21FDA54F00813DA5 /* ATLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLocationManager.swift; sourceTree = "<group>"; };
+		BF631E0021FDA7D400813DA5 /* TrackEventListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEventListener.swift; sourceTree = "<group>"; };
+		BFFAC77221FDB989001295B2 /* MotionActivityEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionActivityEvent.swift; sourceTree = "<group>"; };
+		BFFAC77421FDC196001295B2 /* ATMotionActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMotionActivityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +110,7 @@
 		BF0690A121FBA024001A3511 = {
 			isa = PBXGroup;
 			children = (
+				BF0690EA21FCEE7A001A3511 /* Route.gpx */,
 				BF0690AC21FBA024001A3511 /* AppTracker */,
 				BF0690C121FBA027001A3511 /* AppTrackerTests */,
 				BF0690CC21FBA027001A3511 /* AppTrackerUITests */,
@@ -97,6 +131,9 @@
 		BF0690AC21FBA024001A3511 /* AppTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BFFAC77721FDE60A001295B2 /* Extensions */,
+				BFFAC77621FDE5F4001295B2 /* Managers */,
+				BF0690E121FC95D1001A3511 /* TrackEvents */,
 				BF0690AD21FBA024001A3511 /* AppDelegate.swift */,
 				BF0690AF21FBA024001A3511 /* ViewController.swift */,
 				BF0690B121FBA024001A3511 /* Main.storyboard */,
@@ -110,8 +147,10 @@
 		BF0690C121FBA027001A3511 /* AppTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				BF0690C221FBA027001A3511 /* AppTrackerTests.swift */,
 				BF0690C421FBA027001A3511 /* Info.plist */,
+				BF0690E421FC9A6C001A3511 /* BaseTest.swift */,
+				BF0690E621FC9AF0001A3511 /* FileManagerTests.swift */,
+				BF2735AE21FE6D8B00C8540B /* BackgroundFetchTests.swift */,
 			);
 			path = AppTrackerTests;
 			sourceTree = "<group>";
@@ -123,6 +162,41 @@
 				BF0690CF21FBA027001A3511 /* Info.plist */,
 			);
 			path = AppTrackerUITests;
+			sourceTree = "<group>";
+		};
+		BF0690E121FC95D1001A3511 /* TrackEvents */ = {
+			isa = PBXGroup;
+			children = (
+				BF0690E221FC95F0001A3511 /* BackgroundFetchEvent.swift */,
+				BF0690E821FCE3BD001A3511 /* VisitEvent.swift */,
+				BF0690EB21FCF815001A3511 /* LocationEvent.swift */,
+				BF0690ED21FCFAD5001A3511 /* Coordinate.swift */,
+				BFFAC77221FDB989001295B2 /* MotionActivityEvent.swift */,
+			);
+			path = TrackEvents;
+			sourceTree = "<group>";
+		};
+		BFFAC77621FDE5F4001295B2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BF0690DB21FBA0D2001A3511 /* ATFileManager.swift */,
+				BF0690DD21FBBDF8001A3511 /* TrackManager.swift */,
+				BF631DFC21FDA02B00813DA5 /* AlertManager.swift */,
+				BFFAC77421FDC196001295B2 /* ATMotionActivityManager.swift */,
+				BF631E0021FDA7D400813DA5 /* TrackEventListener.swift */,
+				BF631DFE21FDA54F00813DA5 /* ATLocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BFFAC77721FDE60A001295B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF0690EF21FCFB9F001A3511 /* DateExtension.swift */,
+				BF0690F121FD9BE0001A3511 /* Logger.swift */,
+				BF2735AC21FE5A6B00C8540B /* CombinedHash.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +267,11 @@
 				TargetAttributes = {
 					BF0690A921FBA024001A3511 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					BF0690BD21FBA027001A3511 = {
 						CreatedOnToolsVersion = 10.1;
@@ -256,8 +335,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0690E921FCE3BD001A3511 /* VisitEvent.swift in Sources */,
+				BF631DFD21FDA02B00813DA5 /* AlertManager.swift in Sources */,
+				BF2735AD21FE5A6B00C8540B /* CombinedHash.swift in Sources */,
+				BF0690DC21FBA0D2001A3511 /* ATFileManager.swift in Sources */,
+				BF631DFF21FDA54F00813DA5 /* ATLocationManager.swift in Sources */,
+				BF0690EC21FCF815001A3511 /* LocationEvent.swift in Sources */,
+				BF0690EE21FCFAD5001A3511 /* Coordinate.swift in Sources */,
+				BF0690F021FCFB9F001A3511 /* DateExtension.swift in Sources */,
+				BF0690F221FD9BE0001A3511 /* Logger.swift in Sources */,
+				BFFAC77521FDC196001295B2 /* ATMotionActivityManager.swift in Sources */,
+				BF0690DE21FBBDF8001A3511 /* TrackManager.swift in Sources */,
 				BF0690B021FBA024001A3511 /* ViewController.swift in Sources */,
+				BF631E0121FDA7D400813DA5 /* TrackEventListener.swift in Sources */,
+				BF0690E321FC95F0001A3511 /* BackgroundFetchEvent.swift in Sources */,
 				BF0690AE21FBA024001A3511 /* AppDelegate.swift in Sources */,
+				BFFAC77321FDB989001295B2 /* MotionActivityEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0690C321FBA027001A3511 /* AppTrackerTests.swift in Sources */,
+				BF0690E521FC9A6C001A3511 /* BaseTest.swift in Sources */,
+				BF0690E721FC9AF0001A3511 /* FileManagerTests.swift in Sources */,
+				BF2735AF21FE6D8B00C8540B /* BackgroundFetchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
